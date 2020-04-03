@@ -39,6 +39,7 @@ const withInspectorControl = createHigherOrderComponent( ( BlockEdit ) => {
 
 						<BaseControl
 							label={ __( 'GT Remove Block Margin', 'gt-remove-block-margin' ) }
+							className="gt-remove-block-margin-control"
 						>
 							<ToggleControl
 								label={ __( 'Remove top margin?', 'gt-remove-block-margin' ) }

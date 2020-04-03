@@ -1,0 +1,13 @@
+.gt-remove-block-margin-control.components-base-control {
+	.components-base-control__label {
+		margin-bottom: 8px;
+	}
+
+	.components-toggle-control {
+		margin-bottom: 8px;
+
+		.components-base-control__field {
+			margin-bottom: 0;
+		}
+	}
+}
