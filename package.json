@@ -1,10 +1,11 @@
 {
-  "name": "gt-remove-block-margin-cgb-guten-block",
+  "name": "gt-remove-block-margin",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "node scripts/start.js",
-    "build": "node scripts/build.js"
+	"build": "node scripts/build.js",
+	"export": "git archive HEAD -9 --prefix gt-remove-block-margin/ --format=zip > ../../gt-remove-block-margin.zip"
   },
   "dependencies": {
     "autoprefixer": "^7.2.4",

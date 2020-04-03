@@ -18,6 +18,7 @@ const { hasBlockSupport } = wp.blocks;
 /**
  * Internal dependencies
  */
+import './editor.scss';
 import './style.scss';
 
 const withInspectorControl = createHigherOrderComponent( ( BlockEdit ) => {
