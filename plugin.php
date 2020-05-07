@@ -21,11 +21,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 /**
- * Main GermanThemes_Remove_Block_Margin Class
+ * Main GermanThemes_Remove_Block_Spacing Class
  *
  * @package GT Remove Block Spacing
  */
-class GermanThemes_Remove_Block_Margin {
+class GermanThemes_Remove_Block_Spacing {
 	/**
 	 * Setup the Plugin
 	 *
@@ -83,4 +83,4 @@ class GermanThemes_Remove_Block_Margin {
 }
 
 // Run Plugin.
-GermanThemes_Remove_Block_Margin::setup();
+GermanThemes_Remove_Block_Spacing::setup();
