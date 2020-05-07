@@ -38,17 +38,17 @@ const withInspectorControl = createHigherOrderComponent( ( BlockEdit ) => {
 					<InspectorAdvancedControls>
 
 						<BaseControl
-							label={ __( 'Remove Block Margin', 'gt-remove-block-margin' ) }
-							className="gt-remove-block-margin-control"
+							label={ __( 'Remove Block Spacing', 'gt-remove-block-spacing' ) }
+							className="gt-remove-block-spacing-control"
 						>
 							<ToggleControl
-								label={ __( 'Remove top margin?', 'gt-remove-block-margin' ) }
+								label={ __( 'Remove top margin?', 'gt-remove-block-spacing' ) }
 								checked={ !! gtRemoveMarginTop }
 								onChange={ () => props.setAttributes( { gtRemoveMarginTop: ! gtRemoveMarginTop } ) }
 							/>
 
 							<ToggleControl
-								label={ __( 'Remove bottom margin?', 'gt-remove-block-margin' ) }
+								label={ __( 'Remove bottom margin?', 'gt-remove-block-spacing' ) }
 								checked={ !! gtRemoveMarginBottom }
 								onChange={ () => props.setAttributes( { gtRemoveMarginBottom: ! gtRemoveMarginBottom } ) }
 							/>
@@ -62,7 +62,7 @@ const withInspectorControl = createHigherOrderComponent( ( BlockEdit ) => {
 		return <BlockEdit { ...props } />;
 	};
 }, 'withInspectorControl' );
-addFilter( 'editor.BlockEdit', 'gt-remove-block-margin/inspector-control', withInspectorControl );
+addFilter( 'editor.BlockEdit', 'gt-remove-block-spacing/inspector-control', withInspectorControl );
 
 function addAttribute( settings ) {
 	if ( hasBlockSupport( settings, 'customClassName', true ) ) {
@@ -80,7 +80,7 @@ function addAttribute( settings ) {
 
 	return settings;
 }
-addFilter( 'blocks.registerBlockType', 'gt-remove-block-margin/attributes', addAttribute );
+addFilter( 'blocks.registerBlockType', 'gt-remove-block-spacing/attributes', addAttribute );
 
 function addSaveProps( extraProps, blockType, attributes ) {
 	if ( hasBlockSupport( blockType, 'customClassName', true ) && attributes.gtRemoveMarginTop ) {
@@ -93,4 +93,4 @@ function addSaveProps( extraProps, blockType, attributes ) {
 
 	return extraProps;
 }
-addFilter( 'blocks.getSaveContent.extraProps', 'gt-remove-block-margin/save-props', addSaveProps );
+addFilter( 'blocks.getSaveContent.extraProps', 'gt-remove-block-spacing/save-props', addSaveProps );

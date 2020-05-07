@@ -1,11 +1,11 @@
 {
-  "name": "gt-remove-block-margin",
+  "name": "gt-remove-block-spacing",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "node scripts/start.js",
 	"build": "node scripts/build.js",
-	"export": "git archive HEAD -9 --prefix gt-remove-block-margin/ --format=zip > ../../gt-remove-block-margin.zip"
+	"export": "git archive HEAD -9 --prefix gt-remove-block-spacing/ --format=zip > ../../gt-remove-block-spacing.zip"
   },
   "dependencies": {
     "autoprefixer": "^7.2.4",

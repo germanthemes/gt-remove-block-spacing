@@ -27,12 +27,12 @@ const ExtractTextPlugin = require( 'extract-text-webpack-plugin' );
 
 // Extract style.css for both editor and frontend styles.
 const blocksCSSPlugin = new ExtractTextPlugin( {
-	filename: './assets/css/gt-remove-block-margin.css',
+	filename: './assets/css/gt-remove-block-spacing.css',
 } );
 
 // Extract editor.css for editor styles.
 const editBlocksCSSPlugin = new ExtractTextPlugin( {
-	filename: './assets/css/gt-remove-block-margin-editor.css',
+	filename: './assets/css/gt-remove-block-spacing-editor.css',
 } );
 
 // Configuration for the ExtractTextPlugin — DRY rule.
@@ -70,14 +70,14 @@ const extractConfig = {
 // Export configuration.
 module.exports = {
 	entry: {
-		'./assets/js/gt-remove-block-margin': paths.pluginBlocksJs, // 'name' : 'path/file.ext'.
+		'./assets/js/gt-remove-block-spacing': paths.pluginBlocksJs, // 'name' : 'path/file.ext'.
 	},
 	output: {
 		// Add /* filename */ comments to generated require()s in the output.
 		pathinfo: true,
 		// The dist folder.
 		path: paths.pluginDist,
-		filename: '[name].js', // [name] = './assets/js/gt-remove-block-margin' as defined above.
+		filename: '[name].js', // [name] = './assets/js/gt-remove-block-spacing' as defined above.
 	},
 	// You may want 'eval' instead if you prefer to see the compiled output in DevTools.
 	devtool: 'cheap-eval-source-map',
