@@ -21,7 +21,7 @@ The settings are added to the Advanced tab in the Block Sidebar. See screenshot 
 1. Activate the plugin
 2. Create a new post or page and edit a block.
 3. In the Advanced Tab of the Block Sidebar, you can find the settings to remove block margins.
-3. Please also see the screenshot and our [Documentation](https://germanthemes.de/en/plugin/gt-remove-spacing-documentation/)
+3. Please also see the screenshot and our [Documentation](https://germanthemes.de/en/plugins/gt-remove-block-spacing/)
 
 == Screenshots ==
 
