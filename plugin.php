@@ -2,7 +2,7 @@
 /*
 Plugin Name: GT Remove Block Margin
 Plugin URI: https://germanthemes.de/en/plugins/gt-remove-block-margin/
-Description: Add description
+Description: Remove top and bottom spacing for any Gutenberg block.
 Author: GermanThemes
 Author URI: https://germanthemes.de/en/
 Version: 1.0
