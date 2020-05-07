@@ -1,8 +1,8 @@
-=== GT Blocks ===
+=== GT Remove Block Spacing ===
 Author URI: https://germanthemes.de/en/
 Plugin URI: https://germanthemes.de/en/plugins/gt-remove-block-spacing/
 Contributors: germanthemes
-Tags: Gutenberg, Blocks, Editor
+Tags: Gutenberg, Blocks, Editor, Spacing
 Requires at least: 5.0
 Tested up to: 5.4
 Stable tag: 1.0
