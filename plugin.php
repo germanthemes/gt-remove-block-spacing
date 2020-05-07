@@ -52,7 +52,7 @@ class GermanThemes_Remove_Block_Margin {
 			'gt-remove-block-margin',
 			plugins_url( 'assets/css/gt-remove-block-margin.css', __FILE__ ),
 			array(),
-			'20200403'
+			'20200505'
 		);
 	}
 
@@ -69,7 +69,7 @@ class GermanThemes_Remove_Block_Margin {
 			'gt-remove-block-margin',
 			plugins_url( 'assets/js/gt-remove-block-margin.js', __FILE__ ),
 			array( 'wp-blocks', 'wp-i18n', 'wp-element', 'wp-editor' ),
-			'20200403'
+			'20200505'
 		);
 
 		// Enqueue Editor Stylesheet for GT Remove Block Margin.
@@ -77,7 +77,7 @@ class GermanThemes_Remove_Block_Margin {
 			'gt-remove-block-margin-editor',
 			plugins_url( 'assets/css/gt-remove-block-margin-editor.css', __FILE__ ),
 			array( 'wp-edit-blocks' ),
-			'20200403'
+			'20200505'
 		);
 	}
 }
