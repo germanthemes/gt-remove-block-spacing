@@ -25,6 +25,10 @@ The settings are added to the Advanced tab in the Block Sidebar. See screenshot 
 
 == Screenshots ==
 
+1. Remove Block Spacing settings
+
+== Screenshots ==
+
 1. Plugin Settings
 
 == Changelog ==
